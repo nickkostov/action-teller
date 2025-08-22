@@ -22,7 +22,7 @@
 
 Clone and install (editable mode recommended for development):
 
-    git clone https://github.com/your-org/action-teller.git
+    git clone https://github.com/nickkostov/action-teller.git
     cd action-teller
     pip install -e .
 
