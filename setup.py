@@ -27,7 +27,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "cifolio=action_teller.cli:cli",
+            "cifolio=action_teller.cli:cifolio",
         ],
     },
     include_package_data=True,
