@@ -1,14 +1,15 @@
 import click
 
-def llm_summary_option(f):
+def ai_summary_option(f):
     f = click.option(
-        "--llm-summary",
+        "--ai-summary",
         is_flag=True,
-        help="Generate a short summary using Ollama."
+        help="Generate a short AI-based summary using a local model via Ollama.",
     )(f)
     f = click.option(
-        "--llm-model",
+        "--model",
         default="mistral",
-        help="Ollama model to use (default: mistral)."
+        show_default=True,
+        help="Name of the local Ollama model to use (e.g., mistral, codellama).",
     )(f)
     return f

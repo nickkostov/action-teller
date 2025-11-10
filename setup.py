@@ -11,7 +11,7 @@ else:
     long_desc_type = "text/plain"
 
 setup(
-    name="action-teller",
+    name="cifolio",
     version="0.3.0",
     description="Generate Markdown docs from GitHub Action action.yml files",
     long_description=long_desc,
@@ -27,7 +27,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "action-teller=action_teller.cli:cli",
+            "cifolio=action_teller.cli:cli",
         ],
     },
     include_package_data=True,
